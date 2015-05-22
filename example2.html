@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Table</title>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+</head>
+<body>
+	<div class="table-responsive">
+		<table border="1" cellpadding="5" cellspacing="5" id="my-table" class="table table-condensed table-bordered">
+			<thead>
+				<tr>
+					<th>Name</th>
+					<th>Age</th>
+					<th>Height</th>
+					<th>Weight</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>Boris</td>
+					<td>19</td>
+					<td>180</td>
+					<td>70</td>
+				</tr>
+				<tr>
+					<td>Hanna</td>
+					<td>19</td>
+					<td>172</td>
+					<td>65</td>
+				</tr>
+				<tr>
+					<td>Andrew</td>
+					<td>20</td>
+					<td>182</td>
+					<td>80</td>
+				</tr>
+				<tr>
+					<td>Hanna</td>
+					<td>19</td>
+					<td>160</td>
+					<td>50</td>
+				</tr>
+				<tr>
+					<td>Andrew</td>
+					<td>19</td>
+					<td>187</td>
+					<td>75</td>
+				</tr>
+				<tr>
+					<td>Boris</td>
+					<td>16</td>
+					<td>170</td>
+					<td>66</td>
+				</tr>
+				<tr>
+					<td>Andrew</td>
+					<td>20</td>
+					<td>182</td>
+					<td>65</td>
+				</tr>
+				<tr>
+					<td>Hanna</td>
+					<td>19</td>
+					<td>180</td>
+					<td>70</td>
+				</tr>
+				<tr>
+					<td>Boris</td>
+					<td>19</td>
+					<td>175</td>
+					<td>80</td>
+				</tr>
+				<tr>
+					<td>Cindy</td>
+					<td>18</td>
+					<td>175</td>
+					<td>69</td>
+				</tr>
+				
+			</tbody>
+		</table>
+	</div>
+	<script src="sortable-table.js"> </script>
+	<script>
+		$(document).ready(function(){
+			$("#my-table").makeSortable();
+		});
+	</script>
+</body>
+</html>
