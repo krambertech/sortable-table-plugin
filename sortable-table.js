@@ -42,7 +42,7 @@
 	        						  .sort(priorityComparator);
 		        	refresh(tr);
         		}       		
-			}); 
+		}); 
     	});
     }; 
 }( jQuery ));
